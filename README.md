@@ -20,7 +20,7 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/skibidiTTS.git
+   git clone https://github.com/whybhav360/skibidiTTS.git
    ```
 2. Open the project in Android Studio.
 3. Connect an Android device or use an emulator.
