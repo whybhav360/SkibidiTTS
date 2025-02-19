@@ -11,8 +11,7 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 - 🗣️ **Manual TTS Control**: A dedicated button to start speech playback.
 
 ## Screenshots 📸
-![WhatsApp Image 2025-02-19 at 14 29 49_4de580db](https://github.com/user-attachments/assets/77d97d8e-a195-4d2d-8954-62dc01574e63)
-![WhatsApp Image 2025-02-19 at 14 29 48_1a9f815d](https://github.com/user-attachments/assets/b60624aa-a3a0-4764-b16a-617938b1590c)
+![WhatsApp Image 2025-02-19 at 14 29 49_4de580db](https://github.com/user-attachments/assets/77d97d8e-a195-4d2d-8954-62dc01574e63) ![WhatsApp Image 2025-02-19 at 14 29 48_1a9f815d](https://github.com/user-attachments/assets/b60624aa-a3a0-4764-b16a-617938b1590c)
 ![WhatsApp Image 2025-02-19 at 14 29 48_bbb78ec3](https://github.com/user-attachments/assets/05678ad8-a5bf-4e11-8da7-675dfbe58ee0)
 
 
