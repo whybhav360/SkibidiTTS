@@ -9,6 +9,7 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 - ⚡ **Real-time AI Response**: Uses the Groq API to generate Skibidi-style translations.
 - 🎛️ **Progress Indicator**: Shows a loading animation while text is being generated.
 - 🗣️ **Manual TTS Control**: A dedicated button to start speech playback.
+- 📝 **Save Skibidi Text**: Let users store generated text.
 
 ## Screenshots 📸
 <img src = "https://github.com/user-attachments/assets/33c7c044-a7ec-494c-932f-7b0263aacec0" height="400" width ="250" >
@@ -42,7 +43,6 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 - **Kotlin**: Main programming language.
 - **Retrofit**: API calls to Groq AI.
 - **Text-to-Speech (TTS)**: For speech synthesis.
-- **Firebase (optional)**: For future features like cloud storage.
 
 ## API Setup 🔑
 
@@ -51,7 +51,6 @@ To use the Groq API, replace `YOUR_API_KEY_HERE` in the code with your actual AP
 ## Future Improvements 🌟
 
 - 🎙️ **Voice Input**: Allow users to speak instead of typing.
-- 📝 **Save Skibidi Text**: Let users store generated text.
 - 📢 **Custom Voice Selection**: Choose different TTS voices.
 - 🔄 **Implement Toggle Button**: Replace separate buttons with a single toggle button for better UI.
 
