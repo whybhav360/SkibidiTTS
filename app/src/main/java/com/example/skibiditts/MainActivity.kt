@@ -1,6 +1,9 @@
 package com.example.skibiditts
 
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
@@ -31,7 +34,7 @@ class MainActivity : AppCompatActivity(), OnInitListener {
     private var skibidiIntensity = "mild"
     private lateinit var progressBar: ProgressBar
     private lateinit var ttsButton : Button
-
+    private lateinit var copyButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +47,20 @@ class MainActivity : AppCompatActivity(), OnInitListener {
         outputText = findViewById(R.id.outputText)
         progressBar = findViewById(R.id.progressBar)
         ttsButton = findViewById(R.id.ttsButton)
+        copyButton = findViewById(R.id.copyButton)
 
+
+        copyButton.setOnClickListener {
+            val textToCopy = outputText.text.toString()
+            if (textToCopy.isNotEmpty()) {
+                val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                val clip = ClipData.newPlainText("SkibidiText", textToCopy)
+                clipboard.setPrimaryClip(clip)
+                Toast.makeText(this, "Copied to clipboard!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "No text to copy!", Toast.LENGTH_SHORT).show()
+            }
+        }
         // Initialize TTS engine
         tts = TextToSpeech(this, this)
         ttsButton.setOnClickListener {
@@ -84,7 +100,7 @@ class MainActivity : AppCompatActivity(), OnInitListener {
             mildButton.setBackgroundColor(Color.LTGRAY)
         }
     }
-    // TTS initialization callback
+    // TTS initialization
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
             val langResult = tts.setLanguage(Locale.US) // Set language to US English
@@ -96,7 +112,7 @@ class MainActivity : AppCompatActivity(), OnInitListener {
         }
     }
 
-    // Function to generate Skibidi text
+    // generate Skibidi
     private fun generateSkibidiText(input: String) {
         if (tts.isSpeaking) {
             tts.stop()
@@ -109,8 +125,6 @@ class MainActivity : AppCompatActivity(), OnInitListener {
             .build()
 
         val apiService = retrofit.create(GroqApiService::class.java)
-
-        // Change the prompt based on the selected intensity
 
         val prompt = if (skibidiIntensity == "full") {
             "Translate/explain this to/in full brainrot slang: $input"
