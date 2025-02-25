@@ -9,7 +9,7 @@ import retrofit2.http.POST
 
 interface GroqApiService {
     @Headers(
-        "Authorization: Bearer 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",  // Replace with your actual API key
+        "Authorization: Bearer YOUR_API_KEY_GOES_HERR",  // Replace with your actual API key
         "Content-Type: application/json"
     )
     @POST("chat/completions")  // Correct Groq API endpoint
