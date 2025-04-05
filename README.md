@@ -12,9 +12,11 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 - 📝 **Save Skibidi Text**: Let users store generated text.
 
 ## Screenshots 📸
-<img src = "https://github.com/user-attachments/assets/33c7c044-a7ec-494c-932f-7b0263aacec0" height="400" width ="250" >
+<img src = "![WhatsApp Image 2025-04-05 at 14 38 58_64aa2747](https://github.com/user-attachments/assets/28eea6ea-4be6-4420-b339-6c44a02062c0)"
+ height="400" width ="250" >
 
-<img src = "https://github.com/user-attachments/assets/6b5d03a2-2a6d-470b-a853-fa8b2b65247d" height="400" width ="250" >
+<img src = "![WhatsApp Image 2025-04-05 at 14 39 00_d8b91b3e](https://github.com/user-attachments/assets/2ea58f7b-da57-4011-858d-723de59c4ed4)"
+ height="400" width ="250" >
 
 <img src = "https://github.com/user-attachments/assets/f186cc46-d9e3-40af-9adf-a054413a355b" height="400" width ="250" >
 
