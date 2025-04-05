@@ -16,7 +16,7 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 
 <img src = "https://github.com/user-attachments/assets/2ea58f7b-da57-4011-858d-723de59c4ed4" height="500" width ="250" >
 
-<img src="https://github.com/user-attachments/assets/9634746d-2be3-4e45-ae31-834197e23f1f" alt="Demo" height="500" width="400"/>
+<img src="https://github.com/user-attachments/assets/ce33cabb-7348-404f-9c74-83be8f136c73" alt="Demo" height="500" width="400"/>
 
 
 
