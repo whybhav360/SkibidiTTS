@@ -30,7 +30,8 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
    ```
 2. Open the project in Android Studio.
 3. Connect an Android device or use an emulator.
-4. Run the app.
+4. See the API setup connection section to setup your own API
+5. Run the app.
 
 ## Usage 🛠️
 
@@ -47,7 +48,7 @@ Skibidi TTS is a fun Android app that converts input text into Skibidi-style spe
 
 ## API Setup 🔑
 
-To use the Groq API, replace `YOUR_API_KEY_HERE` in the code with your actual API key.
+To use the Groq API, replace `YOUR_API_KEY_HERE` in the code with your actual API key.(Visit https://console.groq.com/home)
 
 ## Future Improvements 🌟
 
